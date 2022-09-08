@@ -190,23 +190,20 @@ nav ul li a:hover {
 section{
     display: flex;
     position: relative;
-    min-height: 100vh;
+    height: 100vh;
     align-items: center;
     overflow: hidden;
 }
-
 .section__text {
     color: white;
     width: 50%;
     text-align: center;
 }
-
 .section__text img {
     border: 10px solid #f1f5f8;
     object-fit: cover;
     width: 150px;
 }
-
 .section__text h1 {
     font-size: 5rem;
     margin-top: 10px;
@@ -221,7 +218,7 @@ section{
 }
 .section__text p{
     font-size: 20px;
-    margin: 3% 10%;
+    margin: 3% 15%;
     font-weight: 400;
     /* text-align: center; */
 }
@@ -265,6 +262,83 @@ section{
 .section__img img{
     width: 100%;
 }
+
+@media screen and (max-width: 1200px) {
+    .section__img{
+        margin-right: 30px;
+    }
+}
+@media screen and (max-width: 1075px) {
+   .section__text__header {
+       font-size: 3.5rem !important;
+   }
+   .section__text p {
+       font-size: 15px !important;
+   }
+   .section__img{
+       margin-right: 30px;
+   }
+   .section__text div button{
+       font-size: 15px !important;
+   }
+}
+@media screen and (max-width: 850px) {
+    .section__text__header {
+        font-size: 3rem !important;
+    }
+    .section__text p {
+        margin: 3% 5% !important;
+    }
+    .section__img{
+        margin-right: 30px;
+        width: 60vh !important;
+    }
+    .section__text div button{
+        font-size: 15px !important;
+    }
+}
+@media screen and (max-width: 770px) {
+   .section__text__header {
+       font-size: 3rem !important;
+   }
+   .section__text p {
+       margin: 3% 5% !important;
+   }
+   .section__text div{
+       margin-left: 2% !important;
+   }
+   .section__img{
+       margin-right: 30px;
+       width: 60vh !important;
+   }
+   .section__text div button{
+       font-size: 13px !important;
+   }
+}
+/* @media screen and (max-width: 740px) {
+    section{
+        width: 100vw;
+        top: -70px;
+        left: 25%;
+        margin: none !important;
+        padding: none !important;
+    }
+    .section__text {
+       width: 100vw;
+    }
+    .section__text__header {
+        font-size: 3rem !important;
+    }
+    .section__text p {
+        font-size: 15px !important;
+    }
+    .section__img{
+        display: none;
+    }
+    .section__text div button{
+        font-size: 15px !important;
+    }
+} */
 
 
 
