@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing page</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="logo">
+            <a href="index.html">
+                <div>Spider<span>Bike</span></div>
+            </a>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">GALLERY</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+
+        <!-- nav2 -->
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="#">HOME</a>
+                <a href="#">ABOUT</a>
+                <a href="#">GALLERY</a>
+                <a href="#">CONTACT</a>
+            </div>
+        </div>
+
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="nav2">&#9776</span>
+    </div>
+
+    <section>
+
+        <div class="section__text">
+            <img src="eBike/Orange & Black Modern Company Logo.jpg" width="150px">
+            <h1>Spider BIK&#9776</h1>
+            <p>
+                Lorem Ipsum is simply dummy text of the
+                printing and typesetting industry.
+                Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled
+                it to make a type specimen book
+            </p>
+
+            <div>
+                <button>
+                    <i class="fa fa-play-circle"></i>
+                    preview
+                </button>
+                <button>More infomation</button>
+            </div>
+
+        </div>
+
+        <div class="section__img">
+            <img src="eBike/Untitled design.png">
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
