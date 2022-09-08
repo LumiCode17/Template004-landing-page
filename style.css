@@ -8,7 +8,7 @@
 }
 
 body {
-    background: linear-gradient(-150deg, #2f4858 50%, #fff 15%, #EB9928 35%);
+    background: linear-gradient(-150deg, #2f4858 50%, #EB9928 35%);
     cursor: url(https://github.com/hicodersofficial/interactive-card/blob/main/assets/cursors/panda.png?raw=true),
         auto !important;
     overflow-y: hidden;
